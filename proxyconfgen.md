@@ -40,7 +40,8 @@ In summary, `ProxyConfGen` acts as an intelligent change-detection mechanism. It
 ### Example Usage
 See which nginx template files would be touched.
 <pre>
-/opt/zimbra/libexec/zmproxyconfgen -n -v  --- [-n, --dryrun | -v, --verbose]
+Options: [-n, --dryrun | -v, --verbose]
+% /opt/zimbra/libexec/zmproxyconfgen -n -v  
 </pre>
 ### Notes
 zmproxyctl calls libexec/configwrite proxy when there isn't a 2nd argument to zmproxyctl.
